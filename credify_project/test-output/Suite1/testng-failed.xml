@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test thread-count="2" name="Tests1(failed)">
+    <classes>
+      <class name="com.credify.project.tests.Tests">
+        <methods>
+          <include name="After"/>
+          <include name="verifyLoanProcess"/>
+          <include name="Before"/>
+        </methods>
+      </class> <!-- com.credify.project.tests.Tests -->
+    </classes>
+  </test> <!-- Tests1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
